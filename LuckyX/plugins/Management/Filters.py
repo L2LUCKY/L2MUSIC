@@ -4,7 +4,7 @@ from config import BOT_USERNAME
 from LuckyX.utils.admin_check import admin_filter
 from LuckyX.utils.Databases.filtersdb import *
 from LuckyX.utils.function.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from LuckyX.utils.Databases.ranidb import user_admin
+from LuckyX.utils.Databases.adisadb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
