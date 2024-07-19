@@ -4,7 +4,7 @@ from pyrogram import filters
 from LuckyX.utils.admin_check import admin_filter
 from LuckyX.utils.Databases.notesdb import *
 from LuckyX.utils.function.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from LuckyX.utils.Databases.ranidb import user_admin
+from LuckyX.utils.Databases.adisadb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 
